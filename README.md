@@ -1,2 +1,3 @@
 # Alias-for-Telergam
-game
+@orangeBoxBot
+Пока ещё не перенесён на сервер, поэтому не работает
