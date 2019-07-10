@@ -1,0 +1,2 @@
+# Alias-for-Telergam
+game
