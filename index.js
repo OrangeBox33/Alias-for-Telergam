@@ -4,9 +4,9 @@ const teamName = require('./teamName');
 const avatar = require('./avatar');
 
 
-process.env['PROXY_SOCKS5_HOST'] = '45.14.222.178';
-process.env['PROXY_SOCKS5_PORT'] = '48088';
-process.env['token'] = '837546534:AAH0KD0Gbuo2zz0R-zdkYW7RtZuAgmNMsAE';
+process.env['PROXY_SOCKS5_HOST'] = '';
+process.env['PROXY_SOCKS5_PORT'] = '';
+process.env['token'] = '';
 const TelegramBot = require('node-telegram-bot-api');
 var Agent = require('socks5-https-client/lib/Agent');
 const bot = new TelegramBot(process.env.token, {
@@ -17,8 +17,8 @@ const bot = new TelegramBot(process.env.token, {
 			socksHost: process.env.PROXY_SOCKS5_HOST,
 			socksPort: parseInt(process.env.PROXY_SOCKS5_PORT),
 			// If authorization is needed:
-			socksUsername: 'Xuxi3aHszS',
-			socksPassword: 'O2stPvz1AG'
+			socksUsername: '',
+			socksPassword: ''
 		}
 	}
 });
