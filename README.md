@@ -1,3 +1,4 @@
 # Alias-for-Telergam
-@orangeBoxBot
-Пока ещё не перенесён на сервер, поэтому не работает
+@orangeBoxBot<br>
+testBot<br>
+Можете попробовать ))
